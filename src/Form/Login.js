@@ -33,7 +33,7 @@ const Login = () => {
         
         return(
        
-        <Redirect to="/Todo" />
+        <Redirect to="/Menu" />
         )
     }
     return (
