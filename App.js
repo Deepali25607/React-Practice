@@ -1,13 +1,15 @@
 import React from 'react';
-import CopilotcoIndex from "./CopilotcoIndex"
-import CopilotcoContactUs from "./CopilotcoContactUs"
-import CopilotcoHosting from "./CopilotcoHosting"
+// import CopilotcoIndex from "./CopilotcoIndex"
+// import CopilotcoContactUs from "./CopilotcoContactUs"
+// import CopilotcoHosting from "./CopilotcoHosting"
 import CopilotcoAbout from "./CopilotcoAbout"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <div >
-      <Router>
+      
+      {/* <CopilotcoAbout /> */}
+      {/* <Router>
         <Switch>
           <Route exact path="/" component={CopilotcoIndex}>
           </Route>
@@ -18,7 +20,7 @@ function App() {
           <Route exact path="/hosting" component={CopilotcoHosting}>
           </Route>
         </Switch>
-      </Router>
+      </Router> */}
     </div>
 
   );
